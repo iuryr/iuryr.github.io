@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>blog do iury</title>
+    <link>https://iuryr.github.io/</link>
+    <description>Recent content on blog do iury</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Jun 2023 15:23:30 -0300</lastBuildDate><atom:link href="https://iuryr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sort Params</title>
+      <link>https://iuryr.github.io/posts/sort-params/</link>
+      <pubDate>Mon, 19 Jun 2023 15:23:30 -0300</pubDate>
+      
+      <guid>https://iuryr.github.io/posts/sort-params/</guid>
+      <description>Neste post eu vou falar sobre o exercício ft_sort_params que fiz durante a lista basecamp reloaded, uma espécie de revisão/nivelamento logo antes do início da formação na 42sp. Nele há uma manipulação de ponteiros que achei muito interessante e digna de nota.
+O enunciado O enunciado é muito simples: escreva um programa que imprima na tela, in ascii order, os argumentos passados quando o programa é passado.
+A &amp;lsquo;minha&amp;rsquo; solução (que aprendi com colegas) #include &amp;lt;unistd.</description>
+    </item>
+    
+    <item>
+      <title>Git under the hood</title>
+      <link>https://iuryr.github.io/posts/git-under-the-hood/</link>
+      <pubDate>Thu, 18 May 2023 14:25:56 -0300</pubDate>
+      
+      <guid>https://iuryr.github.io/posts/git-under-the-hood/</guid>
+      <description>Postando aqui rapidamente só para não deixar o blog sem atualização por tempo demais. A esta altura meu plano era já ter escrito alguns posts sobre umas funções interessantes que tenho que fazer por ocasião do projeto Libft, bem como algumas curiosidades sobre funcionamento do computador (como por exemplo a systemcall write tendo &amp;lsquo;preferência sobre calls prévias de printf). Mas isso fico pra quando eu tiver tempo.
+Hoje a única coisa que quero trazer aqui é este post: A Visual Guide to Git Internals — Objects, Branches, and How to Create a Repo From Scratch no FreeCodeCamp.</description>
+    </item>
+    
+    <item>
+      <title>Fazendo push para vários repos remotos com um único git push</title>
+      <link>https://iuryr.github.io/posts/git-multiple-repos/</link>
+      <pubDate>Thu, 04 May 2023 14:58:47 -0300</pubDate>
+      
+      <guid>https://iuryr.github.io/posts/git-multiple-repos/</guid>
+      <description>Desde que fui selecionado para fazer a formação na 42 fiquei pensando que seria interessante guardar o código produzido no meu repositório pessoal. Além de deixar o github verdinho, isso parece interessante para aumentar minha familiariedade com o workflow usual de desenvolvimento de software.
+Na 42, quando submetemos um projeto para avaliação, o que fazemos é o seguinte: fazemos um git push do repositório local para o vogsphere (uma espécie de github só da escola) através de uma URL provida pela escola.</description>
+    </item>
+    
+    <item>
+      <title>Here be dragons</title>
+      <link>https://iuryr.github.io/posts/primeiro-post/</link>
+      <pubDate>Wed, 03 May 2023 13:56:32 -0300</pubDate>
+      
+      <guid>https://iuryr.github.io/posts/primeiro-post/</guid>
+      <description>Nem tudo tem um começo, mas estas notas se iniciam aqui.
+Em maio de 2023 eu iniciei a formação em engenharia de software promovida pela 42sp, efetivamente botando em movimento um plano de transição de carreira com o qual flerto há alguns anos.
+Neste blog eu pretendo escrever pequenos posts técnicos para me ajudar a fixar de maneira mais permanente alguns assuntos e, quem sabe, ajudar a um ou outro leitor que porventura venha se perder nestes cantos da internet.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://iuryr.github.io/</loc>
+    <lastmod>2023-06-19T15:23:30-03:00</lastmod>
+  </url><url>
+    <loc>https://iuryr.github.io/posts/</loc>
+    <lastmod>2023-06-19T15:23:30-03:00</lastmod>
+  </url><url>
+    <loc>https://iuryr.github.io/posts/sort-params/</loc>
+    <lastmod>2023-06-19T15:23:30-03:00</lastmod>
+  </url><url>
+    <loc>https://iuryr.github.io/posts/git-under-the-hood/</loc>
+    <lastmod>2023-05-18T14:25:56-03:00</lastmod>
+  </url><url>
+    <loc>https://iuryr.github.io/posts/git-multiple-repos/</loc>
+    <lastmod>2023-05-04T14:58:47-03:00</lastmod>
+  </url><url>
+    <loc>https://iuryr.github.io/posts/primeiro-post/</loc>
+    <lastmod>2023-05-03T13:56:32-03:00</lastmod>
+  </url><url>
+    <loc>https://iuryr.github.io/categories/</loc>
+  </url><url>
+    <loc>https://iuryr.github.io/tags/</loc>
+  </url>
+</urlset>
