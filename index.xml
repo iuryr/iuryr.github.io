@@ -1,0 +1,64 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>balealabs</title>
+        <link>https://balealabs.com/</link>
+        <description>balealabs</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 18 Dec 2025 11:42:10 -0300</lastBuildDate>
+            <atom:link href="https://balealabs.com/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Writeup of Technical Challenge - Integration</title>
+    <link>https://balealabs.com/posts/integration/</link>
+    <pubDate>Thu, 18 Dec 2025 11:42:10 -0300</pubDate><author>
+        <name>iury</name>
+    </author><guid>https://balealabs.com/posts/integration/</guid>
+    <description><![CDATA[<p>Recently I applied for a software engineering position in a team that does
+integration between third-party software and a proprietary system. One of the
+stages of the selection process was a take-home challenge that, as I undertand,
+mimics a lot of what is done on a day to day basis on the job.</p>
+<p>We have two systems: a customer system (let us call it CS) that reads and writes JSON and the
+proprietary system (PS) represented by a MongoDB instance. The missing link is
+the software I had to write, the middle layer: a program whose responsability was to translate and sync
+messages from CS to PS and vice-versa. The challenge was to write such program
+in a fashion that would make it simple to add other third-party systems in the
+future. Extra points for error handling, clear logging, testing.</p>]]></description>
+</item><item>
+    <title>Cloudflare</title>
+    <link>https://balealabs.com/posts/cloudflare/</link>
+    <pubDate>Thu, 13 Nov 2025 18:44:42 -0300</pubDate><author>
+        <name>iury</name>
+    </author><guid>https://balealabs.com/posts/cloudflare/</guid>
+    <description><![CDATA[<p>As stated on the previous <a href="/posts/site-infra" rel="">post</a>, this domain
+<a href="https://balealabs.com" target="_blank" rel="noopener noreferrer">balealabs.com</a> was purchased from
+<a href="https://www.cloudflare.com/" target="_blank" rel="noopener noreferrer">Cloudflare&rsquo;s</a> registrar. Even though it is not
+mandatory, it is very convenient to use Cloudflare&rsquo;s Domain Name Server (DNS for
+the intimate) as authorative for this domain. Besides that, Cloudflare free plan
+has a lot of very nice features.</p>
+<p>One of these features is that Cloudflare acts as a reverse proxy for our origin
+server (the nginx instance running on EC2). This means that every request made
+from anyone on the internet first goes through Cloudflare and only Cloudflare
+talks directly to our server. This has a nice side effect that Cloudflare can
+cache the website&rsquo;s content. So, sometimes when someone visits this website, the
+content is served from Cloudflare&rsquo;s cache, sparing our webserver. Another side
+effect is that the Cloudflare handles the internet facing certificate renewal.
+The certificate used between the origin server and Cloudflare does not need to
+be renewed very often (in fact, its validity is 15 years).</p>]]></description>
+</item><item>
+    <title>How this website runs</title>
+    <link>https://balealabs.com/posts/site-infra/</link>
+    <pubDate>Wed, 12 Nov 2025 18:36:39 -0300</pubDate><author>
+        <name>iury</name>
+    </author><guid>https://balealabs.com/posts/site-infra/</guid>
+    <description><![CDATA[<p>Just to keep the daily streak of content going (the <a href="/about" rel="">about</a> section was written yesterday), this post verses about the nitty gritty aspects of how this site come to be, one request at a time.</p>
+<p>First of all, as of now, this is a fully static website, meaning that it is just html, css and javascript that goes from server to the client (your browser) and stays there. There is no back and forth between the site (a front-end, if I may) and a backend of any kind. In the future, however, I would like this to be a web application (for my own pedagogical reasons).</p>]]></description>
+</item><item>
+    <title>Here be dragons</title>
+    <link>https://balealabs.com/posts/first-post/</link>
+    <pubDate>Mon, 10 Nov 2025 14:18:46 -0300</pubDate><author>
+        <name>iury</name>
+    </author><guid>https://balealabs.com/posts/first-post/</guid>
+    <description><![CDATA[<p>Not everything has a beginning, but this blog starts here.</p>
+<p>This website aims to be a storage, a repository, a portfolio, a collection of things generated, curated and liked by me: iury.</p>
+<p>I am a former economist who worked during 9 years on the Brazil Stock and Exchange Commission and has transitioned into the software development industry.</p>
+<p>I intend to document all aspects of this career transition and all tech subjects that interest me in this website. Expect posts on the hosting setup, traffic data analysis, leetcode questions, software architecture and possibly some gaming and other stuff.</p>]]></description>
+</item></channel>
+</rss>
