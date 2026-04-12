@@ -3,9 +3,24 @@
         <title>balealabs</title>
         <link>https://balealabs.com/</link>
         <description>balealabs</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 18 Dec 2025 11:42:10 -0300</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 11 Apr 2026 21:00:46 -0300</lastBuildDate>
             <atom:link href="https://balealabs.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>New Job</title>
+    <link>https://balealabs.com/posts/new-job/</link>
+    <pubDate>Sat, 11 Apr 2026 21:00:46 -0300</pubDate><author>
+        <name>iury</name>
+    </author><guid>https://balealabs.com/posts/new-job/</guid>
+    <description><![CDATA[<p>It&rsquo;s been a while since I last wrote on this website. Some things changed a lot,
+others stayed the same.</p>
+<p>When it comes to change, I think the major one is that a got my first job as a
+software developer. And this is a big deal because, after all, I left a tenured
+and well paying job at the public sector to two years of software engineering
+without being certain if this was the right call. Deep down I felt I could do
+this transition, but yet, it is a little bit terryfing. Also, in the middle of
+this transition, the generative AI became really powerful, specially when it
+comes to programming.</p>]]></description>
+</item><item>
     <title>Writeup of Technical Challenge - Integration</title>
     <link>https://balealabs.com/posts/integration/</link>
     <pubDate>Thu, 18 Dec 2025 11:42:10 -0300</pubDate><author>
