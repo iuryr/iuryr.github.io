@@ -3,7 +3,19 @@
         <title>All Posts - balealabs</title>
         <link>https://balealabs.com/posts/</link>
         <description>All Posts | balealabs</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 11 Apr 2026 21:00:46 -0300</lastBuildDate><atom:link href="https://balealabs.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 19 Apr 2026 11:12:08 -0300</lastBuildDate><atom:link href="https://balealabs.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Job Tech Challenge</title>
+    <link>https://balealabs.com/posts/job-tech-challenge/</link>
+    <pubDate>Sun, 19 Apr 2026 11:12:08 -0300</pubDate><author>
+        <name>iury</name>
+    </author><guid>https://balealabs.com/posts/job-tech-challenge/</guid>
+    <description><![CDATA[<p>So, I&rsquo;m back after a week since I wrote the last post. I&rsquo;m making an effort to keep the momentum in the blog going.</p>
+<p>In the same fashion of <a href="/posts/integration" rel="">this post</a>, I&rsquo;m going to write about
+a take-home challenge that was proprosed to me as part of an application to work
+in a <a href="https://en.wiktionary.org/wiki/FinOps" target="_blank" rel="noopener noreferrer">FinOps</a> startup. I ended up not
+being selected - but my solution of the challenge was not the problem
+(at least, it did not seem so when I presented it).</p>]]></description>
+</item><item>
     <title>New Job</title>
     <link>https://balealabs.com/posts/new-job/</link>
     <pubDate>Sat, 11 Apr 2026 21:00:46 -0300</pubDate><author>

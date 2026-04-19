@@ -2,9 +2,10 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://balealabs.com/</loc><lastmod>2026-04-11T21:00:46-03:00</lastmod></url><url>
+            <loc>https://balealabs.com/</loc><lastmod>2026-04-19T11:12:08-03:00</lastmod></url><url>
+            <loc>https://balealabs.com/posts/job-tech-challenge/</loc><lastmod>2026-04-19T11:12:08-03:00</lastmod></url><url>
+            <loc>https://balealabs.com/posts/</loc><lastmod>2026-04-19T11:12:08-03:00</lastmod></url><url>
             <loc>https://balealabs.com/posts/new-job/</loc><lastmod>2026-04-11T21:00:46-03:00</lastmod></url><url>
-            <loc>https://balealabs.com/posts/</loc><lastmod>2026-04-11T21:00:46-03:00</lastmod></url><url>
             <loc>https://balealabs.com/posts/integration/</loc><lastmod>2025-12-18T11:42:10-03:00</lastmod></url><url>
             <loc>https://balealabs.com/posts/cloudflare/</loc><lastmod>2025-11-13T18:44:42-03:00</lastmod></url><url>
             <loc>https://balealabs.com/posts/site-infra/</loc><lastmod>2025-11-12T18:36:39-03:00</lastmod></url><url>

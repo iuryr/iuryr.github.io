@@ -4,21 +4,21 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="noodp" ><title>New Job - balealabs</title><meta name="Description" content=""><meta property="og:url" content="https://balealabs.com/posts/new-job/">
+    <meta name="robots" content="noodp" ><title>Job Tech Challenge - balealabs</title><meta name="Description" content=""><meta property="og:url" content="https://balealabs.com/posts/job-tech-challenge/">
   <meta property="og:site_name" content="balealabs">
-  <meta property="og:title" content="New Job">
-  <meta property="og:description" content="It’s been a while since I last wrote on this website. Some things changed a lot, others stayed the same.
-When it comes to change, I think the major one is that a got my first job as a software developer. And this is a big deal because, after all, I left a tenured and well paying job at the public sector to two years of software engineering without being certain if this was the right call. Deep down I felt I could do this transition, but yet, it is a little bit terryfing. Also, in the middle of this transition, the generative AI became really powerful, specially when it comes to programming.">
+  <meta property="og:title" content="Job Tech Challenge">
+  <meta property="og:description" content="So, I’m back after a week since I wrote the last post. I’m making an effort to keep the momentum in the blog going.
+In the same fashion of this post, I’m going to write about a take-home challenge that was proprosed to me as part of an application to work in a FinOps startup. I ended up not being selected - but my solution of the challenge was not the problem (at least, it did not seem so when I presented it).">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-04-11T21:00:46-03:00">
-    <meta property="article:modified_time" content="2026-04-11T21:00:46-03:00">
+    <meta property="article:published_time" content="2026-04-19T11:12:08-03:00">
+    <meta property="article:modified_time" content="2026-04-19T11:12:08-03:00">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="New Job">
-  <meta name="twitter:description" content="It’s been a while since I last wrote on this website. Some things changed a lot, others stayed the same.
-When it comes to change, I think the major one is that a got my first job as a software developer. And this is a big deal because, after all, I left a tenured and well paying job at the public sector to two years of software engineering without being certain if this was the right call. Deep down I felt I could do this transition, but yet, it is a little bit terryfing. Also, in the middle of this transition, the generative AI became really powerful, specially when it comes to programming.">
+  <meta name="twitter:title" content="Job Tech Challenge">
+  <meta name="twitter:description" content="So, I’m back after a week since I wrote the last post. I’m making an effort to keep the momentum in the blog going.
+In the same fashion of this post, I’m going to write about a take-home challenge that was proprosed to me as part of an application to work in a FinOps startup. I ended up not being selected - but my solution of the challenge was not the problem (at least, it did not seem so when I presented it).">
 <meta name="application-name" content="balealabs">
 <meta name="apple-mobile-web-app-title" content="balealabs">
 
@@ -26,15 +26,15 @@ When it comes to change, I think the major one is that a got my first job as a s
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
-<link rel="canonical" href="https://balealabs.com/posts/new-job/" ><link rel="prev" href="https://balealabs.com/posts/integration/" ><link rel="next" href="https://balealabs.com/posts/job-tech-challenge/" >
+<link rel="canonical" href="https://balealabs.com/posts/job-tech-challenge/" ><link rel="prev" href="https://balealabs.com/posts/new-job/" >
 <link rel="stylesheet" href="/css/main.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">{"@context": "https://schema.org","@type": "BlogPosting",
-        "headline": "New Job",
+        "headline": "Job Tech Challenge",
         "inLanguage": "en-us",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://balealabs.com/posts/new-job/"
-        },"genre": "posts","wordcount":  318 ,
-        "url": "https://balealabs.com/posts/new-job/","datePublished": "2026-04-11T21:00:46-03:00","dateModified": "2026-04-11T21:00:46-03:00","publisher": {
+            "@id": "https://balealabs.com/posts/job-tech-challenge/"
+        },"genre": "posts","wordcount":  543 ,
+        "url": "https://balealabs.com/posts/job-tech-challenge/","datePublished": "2026-04-19T11:12:08-03:00","dateModified": "2026-04-19T11:12:08-03:00","publisher": {
             "@type": "Organization",
             "name": "iury"},"author": {
                 "@type": "Person",
@@ -119,50 +119,90 @@ When it comes to change, I think the major one is that a got my first job as a s
             <h2 class="tw:mx-0 tw:my-6 tw:uppercase tw:text-2xl">Contents</h2>
             <div class="toc-content"><nav id="TableOfContents"></nav></div>
         </div>
-    </dialog><article class="page single tw:print:w-full! tw:print:max-w-none! tw:print:m-0! tw:print:p-0!"><h1 class="single-title" data-pagefind-meta="date:2026-04-11" data-pagefind-body>New Job</h1><div class="post-meta">
+    </dialog><article class="page single tw:print:w-full! tw:print:max-w-none! tw:print:m-0! tw:print:p-0!"><h1 class="single-title" data-pagefind-meta="date:2026-04-19" data-pagefind-body>Job Tech Challenge</h1><div class="post-meta">
             <div class="post-meta-line">
                 <span class="post-author"><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><a href="/" title="Author" rel=" author" class="author">iury</a>
                 </span></div>
             <div class="post-meta-line"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;<time datetime="2026-04-11">2026-04-11</time>&nbsp;<svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg>&nbsp;<time datetime="2026-04-11">2026-04-11</time>&nbsp;<svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;318 words&nbsp;
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;<time datetime="2026-04-19">2026-04-19</time>&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg>&nbsp;<time datetime="2026-04-19">2026-04-19</time>&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;543 words&nbsp;
                     <svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;2 minutes&nbsp;</div>
-        </div><div class="content" id="content" data-pagefind-body><p>It&rsquo;s been a while since I last wrote on this website. Some things changed a lot,
-others stayed the same.</p>
-<p>When it comes to change, I think the major one is that a got my first job as a
-software developer. And this is a big deal because, after all, I left a tenured
-and well paying job at the public sector to two years of software engineering
-without being certain if this was the right call. Deep down I felt I could do
-this transition, but yet, it is a little bit terryfing. Also, in the middle of
-this transition, the generative AI became really powerful, specially when it
-comes to programming.</p>
-<p>So, what is the job, you ask me. (Who are you, reader?). I am working in a
-financial institution called XP Inc as a QuantDev. The job requires, besides
-programming, some knowledge of financial market products (derivatives, for
-example) and some math. Luckily, my previous job got me a head start in the
-financial side, but even in that regard, there is yet so much I need to learn.</p>
-<p>When it comes to the tech stack, the team uses a lot of Python, some Golang, gRPC
-for messaging and RabbitMQ for asynchronous communication.</p>
-<p>One interesting thing is that this team that I entered is somewhat segregated
-from the &lsquo;usual&rsquo; company engineering - by that I mean that it does not have to follow
-all the rules of the other teams. For example, most teams there use the C#/.NET
-combination so common in the corporate world. Actually, my first task is with C#,
-in a legacy system.</p>
-<p>So far everyone I talked to seemed very intelligent and willing to help. I must
-say that I did not antecipate people being so helpful - this was the best
-surprise.</p>
-<p>I have some posts in the pipeline for this website. Maybe I&rsquo;ll be back in a few
-days.</p>
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;3 minutes&nbsp;</div>
+        </div><div class="content" id="content" data-pagefind-body><p>So, I&rsquo;m back after a week since I wrote the last post. I&rsquo;m making an effort to keep the momentum in the blog going.</p>
+<p>In the same fashion of <a href="/posts/integration" rel="">this post</a>, I&rsquo;m going to write about
+a take-home challenge that was proprosed to me as part of an application to work
+in a <a href="https://en.wiktionary.org/wiki/FinOps" target="_blank" rel="noopener noreferrer">FinOps</a> startup. I ended up not
+being selected - but my solution of the challenge was not the problem
+(at least, it did not seem so when I presented it).</p>
+<p>Since I don&rsquo;t know if I can share the document that specifies the problem, I am
+going to put it in my own words:</p>
+<blockquote>
+  <p>Create a modern web application that is a file explorer. Users should be able
+to navigate a filesystem comprised of files an directories. The system must
+have a fluid user experience (UX) with real time updates and file and directory
+size calculations.</p>
+
+</blockquote><p>The tech stack choice was free, but the company stated that it used Next.js and
+React-query for the front-end, Django (and Django Rest Framework) for the
+backend, as well as, PostgreSQL for the database. So, naturally, I went with the
+company stack.</p>
+<p>Below you can see a high-level schematic of the solution I proposed. It is
+important to mention that I did not implement the storage layer.</p>
+<p><img class="tw:inline" loading="lazy" src='/images/take-home-diagramas.png'   alt="Architecture diagram"  ></p>
+<p>Some of the things that I found more interesting in this challenge:</p>
+<ul>
+<li>
+<p>In the Django Backend, if I remember correctly, I did the things in this
+order:</p>
+<ul>
+<li>
+<p>Created the Node model (which was used to create rows in the database). It
+sound like a good idea since a filesystem can be thought of a tree where the nodes are files or
+directories (and the root of this tree is the root NOde).</p>
+</li>
+<li>
+<p>Defined the services, meaning, the functions that would be triggered by
+requests and interact with the database (creating, deleting or just reading
+rows from tables).</p>
+</li>
+<li>
+<p>Wrote tests for the services defined above.</p>
+</li>
+<li>
+<p>Implemented the API layer: linked endpoints to functions defined in the
+services file.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>Then I proceeded to the front-end:</p>
+<ul>
+<li>Next.js framework uses the structure and contents of the <code>app</code> directory on the project to define
+the url of the application in the browser. It seems to streamline the
+development since this convetion takes the decision from the developer hands.</li>
+<li>React-query is responsible for calling fetch most of the times. It can keep a
+cache of the content fetched, it can refetch automatically when the window
+of the browser is refocused or it can refetch after a specified period.
+This is very important for the UX part of the challenge.</li>
+</ul>
+<p>I struggled a lot with the mental model of React. But, in the end, I got it.</p>
+<p>I think I spent 3 days doing this project. I learned a lot. The most valuable
+thing I think it was the understanding that the Database in this case is just a
+ledger and the file contents would live somewhere else (in a local filesystem,
+maybe in Amazon S3, or maybe a Network File System).</p>
+<p>Well. I did not get the job, but I learned a lot. It became clear that take-home
+challenges are my preferred form of being evaluated.</p>
+<p>Oh, and if you made this far, here&rsquo;s a like for my solution: <a href="https://github.com/iuryr/samax_tech_challenge" target="_blank" rel="noopener noreferrer">https://github.com/iuryr/samax_tech_challenge</a></p>
+<p>Until next time!</p>
 </div>
 
         <div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2026-04-11</span>
+                <span>Updated on 2026-04-19</span>
             </div>
             <div class="post-info-license"></div>
         </div>
@@ -179,10 +219,8 @@ days.</p>
         </div>
     </div>
 
-    <div class="post-nav tw:print:hidden"><a href="/posts/integration/" class="prev" rel="prev" title="Writeup of Technical Challenge - Integration"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>Writeup of Technical Challenge - Integration</a>
-            <a href="/posts/job-tech-challenge/" class="next" rel="next" title="Job Tech Challenge">Job Tech Challenge<svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a></div>
+    <div class="post-nav tw:print:hidden"><a href="/posts/new-job/" class="prev" rel="prev" title="New Job"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>New Job</a></div>
 </div>
 </article></main><footer class="footer">
         <div class="footer-container"><div class="footer-line">
